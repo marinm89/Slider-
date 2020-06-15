@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: whitesmoke;
+    background-color: #333333;
+    line-height: 1.6em;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.container {
+    width: 980px;
+    margin: 40px auto;
+    overflow: hidden;
+}
+
+.slider {
+    width: 940px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    padding: 3px;
+    border: #ffffff solid 2px;
+    border-radius: 5px;
+}
+
+.slider img {
+    width: 940px;
+    height: 350px;
+}
+.slide {
+    position: absolute;
+}
+.slide-copy {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    background-color: #7f7f7f;
+    background-color: rgba(0,0, 0, 0.5);
+}
+
+.prev, .next {
+    float: left;
+    margin-top: 130px;
+    cursor: pointer;
+    position: relative;
+    z-index: 100;
+}
+
+.prev {
+    margin-right: -45px;
+}
+.next {
+    margin-left: -45px;
+}
